@@ -1,0 +1,139 @@
+/*
+Theme Name: lucasr-child
+Theme URI: https://github.com/lucasr/wp-lucasr-child
+Description: Child WordPress theme with the site-specific features for lucasr.org.
+Author: Lucas Rocha <lucasr@lucasr.org>
+Author URI: http://lucasr.org/
+Template: wp-lucasr
+
+License: Creative Commons BY-NC-SA 3.0
+License URI: http://creativecommons.org/licenses/by-nc-sa/3.0/
+*/
+
+@import url("../wp-lucasr/style.css");
+
+body.page-template-thelayout-php {
+  background-color: white;
+  background-position: left; 
+}
+
+body.page-template-thelayout-php .site-header {
+  display: none;
+}
+
+body.page-template-thelayout-php #background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 100%;
+  background-color: #0088cc;
+  z-index: 0;
+}
+
+.thelayout {
+  margin-top: 2.5em;
+  position: relative;
+  z-index: 1;
+}
+
+.thelayout-intro {
+  background-color: #0088cc;
+  color: white;
+  padding-right: 20px;
+}
+
+.thelayout-intro .entry-title {
+  color: white;
+  font-size: 2.7em;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 0.25em;
+}
+
+.thelayout-intro .entry-excerpt {
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 3px;
+}
+
+.thelayout-intro .entry-content {
+  padding: 0px;
+}
+
+.thelayout-intro .entry-content * {
+  text-align: left;
+}
+
+.thelayout-list {
+  padding-top: 15px;
+  padding-left: 20px;
+  border-left: 1px solid white;
+}
+
+.thelayout-list hgroup {
+  margin-bottom: 1em;
+}
+
+.thelayout-list .entry-title {
+  font-family: "ff-tisa-sans-web-pro",sans-serif;
+  font-size: 1.5em;
+  color: #bbbbbb;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1em;
+}
+
+.thelayout-list .entry-title a,
+.thelayout-list .entry-title a:active,
+.thelayout-list .entry-title a:visited {
+  color: #666666;
+}
+
+.thelayout-list .entry-title a:hover {
+  color: #0088cc;
+}
+
+.thelayout-list .entry-date {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.2em;
+}
+
+.thelayout-list .entry-date.draft {
+  color: #bbbbbb;
+}
+
+@media (max-width: 767px) {
+  body.page-template-thelayout-php #background {
+    display: none;
+  }
+
+  .thelayout {
+    margin-top: 0px;
+  }
+
+  .thelayout-intro {
+    padding: 20px;
+  }
+
+  .thelayout-list {
+    padding: 40px 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .thelayout-intro .entry-title {
+    font-size: 2.2em;
+  }
+
+  .thelayout-intro .entry-excerpt {
+    font-size: 0.8em;
+  }
+}
