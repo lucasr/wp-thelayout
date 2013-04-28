@@ -70,6 +70,19 @@ body.page-template-thelayout-php #background {
   text-align: left;
 }
 
+.thelayout-intro .entry-content a,
+.thelayout-intro .entry-content a:active,
+.thelayout-intro .entry-content a:visited,
+.thelayout-intro .entry-content a:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+}
+
+.thelayout-intro .entry-content a:hover {
+  color: #ddf3ff;
+}
+
 .thelayout-list {
   padding-top: 15px;
   padding-left: 20px;
