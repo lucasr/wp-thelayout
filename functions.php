@@ -23,7 +23,7 @@ function lucasr_get_thelayout_posts( $future = false ) {
             'posts_per_page' => 20,
             'offset' => 0,
             'post_status' => ( $future ? 'draft' : 'publish' ) ,
-            'order' => 'DESC',
+            'order' => 'ASC',
             'category_name' => 'the-layout',
             'orderby' => 'date'
         ) );
