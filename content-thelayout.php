@@ -3,7 +3,7 @@
 * The default template for displaying posts in the UI engineering series.
 *
 * @package WordPress
-* @subpackage lucasr-child
+* @subpackage thelayout
 */
 ?>
 

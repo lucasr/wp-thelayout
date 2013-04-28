@@ -5,7 +5,7 @@
  * The Layout's main template file.
  *
  * @package WordPress
- * @subpackage lucasr-child
+ * @subpackage thelayout
  */
 
 get_header();?>

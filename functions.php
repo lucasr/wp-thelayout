@@ -3,7 +3,7 @@
  * Functions and definitions.
  *
  * @package WordPress
- * @subpackage lucasr-child
+ * @subpackage thelayout
  */
 
 
