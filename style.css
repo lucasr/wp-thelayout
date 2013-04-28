@@ -63,6 +63,7 @@ body.page-template-thelayout-php #background {
 
 .thelayout-intro .entry-content {
   padding: 0px;
+  margin-bottom: 30px;
 }
 
 .thelayout-intro .entry-content * {

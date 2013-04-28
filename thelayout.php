@@ -18,6 +18,16 @@ get_header();?>
             <?php get_template_part( 'content', 'page' ); ?>
           <?php endwhile; ?>
 
+          <a href="http://feeds.feedburner.com/thelayout">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/rss.png" align="absmiddle" alt="RSS">
+          </a>
+          <a href="https://twitter.com/readthelayout">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/twitter.png" align="absmiddle" alt="Twitter">
+          </a>
+          <a href="https://plus.google.com/109366488041901352956" rel="publisher">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/google+.png" align="absmiddle" alt="Google+">
+          </a>
+
         </div> <!-- span6 thelayout-intro -->
 
 		<div class="span6 thelayout-list">
