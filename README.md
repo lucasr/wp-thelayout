@@ -1,7 +1,7 @@
 What is it?
 ===========
 
-Child WordPress theme of wp-lucasr with the site-specific features for http://lucasr.org
+Child WordPress theme of wp-lucasr with the site-specific features for http://thelayout.cc
 
 License
 =======
