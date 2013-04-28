@@ -50,6 +50,7 @@ body.page-template-thelayout-php #background {
   margin: 0px;
   padding: 0px;
   margin-bottom: 0.25em;
+  line-height: 0.85em;
 }
 
 .thelayout-intro .entry-excerpt {
@@ -58,7 +59,9 @@ body.page-template-thelayout-php #background {
   color: white;
   margin: 0px;
   padding: 0px;
+  padding-top: 4px;
   padding-left: 3px;
+  line-height: 1.2em;
 }
 
 .thelayout-intro .entry-content {
