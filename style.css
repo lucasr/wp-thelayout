@@ -31,6 +31,32 @@ body.page-template-thelayout-php #background {
   z-index: 0;
 }
 
+.site-header {
+  border: 0px;
+  background-color: #0088cc;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.site-header > h1 {
+  font-family: "ff-tisa-web-pro",serif;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: none;
+  margin: 0px;
+}
+
+.site-header > h1 > a,
+.site-header > h1 > a:active,
+.site-header > h1 > a:visited,
+.site-header > h1 > a:hover {
+  color: #ffffff;
+}
+
+.site-header > h1 > a:hover {
+  color: #ddf3ff;
+}
+
 .thelayout {
   margin-top: 2.5em;
   position: relative;
@@ -125,6 +151,10 @@ body.page-template-thelayout-php #background {
 
 .thelayout-list .entry-date.draft {
   color: #bbbbbb;
+}
+
+.entry-discuss {
+  display: none;
 }
 
 @media (max-width: 767px) {
