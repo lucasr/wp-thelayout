@@ -18,7 +18,7 @@ get_header();?>
             <?php get_template_part( 'content', 'page' ); ?>
           <?php endwhile; ?>
 
-          <a href="http://feeds.feedburner.com/thelayout">
+          <a href="http://thelayout.cc/feed/">
             <img src="<?php echo get_stylesheet_directory_uri() ?>/img/rss.png" align="absmiddle" alt="RSS">
           </a>
           <a href="https://twitter.com/readthelayout">
