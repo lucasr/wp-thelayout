@@ -21,7 +21,7 @@
     <?php the_title(); ?>
   </h1>
 
-  <h2 class="entry-date draft"><?php _e( 'Soon...', 'lucasr-child' ); ?></h2>
+  <h2 class="entry-date draft"><?php _e( 'Soon', 'lucasr-child' ); ?></h2>
 
   <?php endif; // end have_posts() check ?>
 
