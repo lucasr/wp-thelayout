@@ -38,3 +38,9 @@ function lucasr_get_thelayout_posts( $future = false ) {
 function lucasr_get_thelayout_future_posts() {
     return lucasr_get_thelayout_posts( true );
 }
+
+if ( ! function_exists( 'lucasr_the_author_page' ) ) {
+    function lucasr_the_author_page( $user_login ) {
+        the_author_meta( 'user_url' );
+    }
+}
