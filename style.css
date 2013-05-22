@@ -154,10 +154,6 @@ body.page-template-thelayout-php #background {
   color: #bbbbbb;
 }
 
-.entry-discuss {
-  display: none;
-}
-
 @media (max-width: 767px) {
   body.page-template-thelayout-php #background {
     display: none;
