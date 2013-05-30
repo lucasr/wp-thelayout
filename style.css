@@ -69,6 +69,10 @@ body.page-template-thelayout-php #background {
   padding-right: 20px;
 }
 
+.thelayout-intro a.subscribe {
+  text-decoration: none;
+}
+
 .thelayout-intro .entry-title {
   color: white;
   font-size: 2.4em;
